@@ -1,6 +1,7 @@
 function calculate()
 {
     var input= document.getElementById("input").value;
+    document.getElementById("input").value="";
     var vowels=['a','e','i','o','u','A','E','I','O','U'];
     var v=0,c=0,d=0,s=0,sp=0;
     for(i=0; i<input.length; i++)
